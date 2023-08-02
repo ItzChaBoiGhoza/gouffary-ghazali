@@ -118,4 +118,22 @@ function showSlides5(n) {
     dots[slideIndex5-1].className += " active";
 }
 
+function mobileNavHome() {
+  var x = document.getElementById("mobile-nav-home");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function mobileNavAbout() {
+  var x = document.getElementById("mobile-nav-about");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 

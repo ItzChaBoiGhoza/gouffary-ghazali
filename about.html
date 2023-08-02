@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta charset="UTF-8">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,10 +19,16 @@
                 <li><a href="about.html">about</a></li>
                 <li><a href="resume.html" class="btn">resume</a></li>
             </ul>
-            <div class="left">
+            <a href="javascript:void(0)"><ion-icon name="menu-outline" class="burger-nav hide" onclick="mobileNavAbout()"></ion-icon></a>
+            <div class="burger-menu" id="mobile-nav-about">
+                <a href="index.html">home</a>
+                <a href="about.html">about</a>
+                <a href="resume.html">resume</a>
+            </div>
+            <div class="left about-image">
                 <img src="resources/img/Self-Portrait.jpg">
             </div>
-            <div class="left">
+            <div class="left about-detail">
                 <p>My name is Gouffary Ghazali, but I go by Ghoza. I am a Calgary-based <span>Junior Programmer</span> and <span>Junior Data Analyst</span>, currently pursuing a Bachelor's in Computer Information Systems at Mount Royal University. With a mix of formal education and desire to learn, I have honed my expertise in programming and analysis. Courses on platforms like Udemy have been instrumental in nurturing my tech prowness, allowing me to stay updated with the latest trends.</p>
                 <p class="para">When I'm not busy in the digital world, I love embracing the great outdoors. Hiking, biking, soccer, basketball, fitness and unwinding with video games.</p>
                 <p class="para">Here is my resume: <a href="resume.html"><ion-icon name="document-outline" class="logo-document"></ion-icon></a></p>
@@ -31,9 +38,17 @@
                     <li><a href="https://github.com/ItzChaBoiGhoza?tab=repositories"><ion-icon name="logo-github" class="logo-github ion-logo"></ion-icon></ion-icon></a></li>
                 </ul>
             </div>
+            <!-- <div class="links">
+                <ul class="hyper-links">
+                    <li><a href="mailto:gouffaryghazali@gmail.com?subject=Job Opportunity"><ion-icon name="mail" class="mail ion-logo"></ion-icon></a></li>
+                    <li><a href="https://www.linkedin.com/in/gouffary-ghazali-b75a721b0/"><ion-icon name="logo-linkedin" class="logo-linkedin ion-logo"></ion-icon></ion-icon></a></li>
+                    <li><a href="https://github.com/ItzChaBoiGhoza?tab=repositories"><ion-icon name="logo-github" class="logo-github ion-logo"></ion-icon></ion-icon></a></li>
+                </ul>
+            </div> -->
         </div>
 
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="resources/js/app.js"></script>
     </body>
 </html>

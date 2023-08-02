@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,6 +23,12 @@
                 <li><a href="about.html">about</a></li>
                 <li><a href="resume.html" class="btn">resume</a></li>
             </ul>
+            <a href="javascript:void(0)"><ion-icon name="menu-outline" class="burger-nav hide" onclick="mobileNavHome()"></ion-icon></a>
+            <div class="burger-menu" id="mobile-nav-home">
+                <a href="index.html">home</a>
+                <a href="about.html">about</a>
+                <a href="resume.html">resume</a>
+            </div>
             <!-- <ul class="hyper-links">
                 <li><a href="mailto:gouffaryghazali@gmail.com?subject=Job Opportunity"><ion-icon name="mail" class="mail ion-logo"></ion-icon></a></li>
                 <li><a href="https://www.linkedin.com/in/gouffary-ghazali-b75a721b0/"><ion-icon name="logo-linkedin" class="logo-linkedin ion-logo"></ion-icon></ion-icon></a></li>
@@ -30,7 +36,7 @@
             </ul> -->
             <p class="nav-scroll invis">View Projects</p>
             <a href="#project-nav"><ion-icon name="chevron-down-outline" class="logo-down nav-scroll invis"></ion-icon></a>
-            <a href="#" class="btn-ghost">Reach Out</a>
+            <a href="mailto:gouffaryghazali@gmail.com?subject=Job Opportunity" class="btn-ghost">Reach Out</a>
         </div>
         <div class="project-1 proj" id="project-nav">
             <div class="projects">
@@ -164,7 +170,7 @@
                 </div>
             </div>
         </div>
-        <div class="project-5 proj">
+        <!-- <div class="project-5 proj">
             <div class="projects">
                 <div class="project-title">
                     <h4 class="numerical-title">05</h4>
@@ -196,8 +202,10 @@
                     <p>Context</p>
                 </div>
             </div>
-        </div>
-        <footer></footer>
+        </div> -->
+        <footer>
+            Gouffary Ghazali 2023 &copy
+        </footer>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         <script src="resources/js/app.js"></script>
